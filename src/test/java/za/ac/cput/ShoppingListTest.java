@@ -1,5 +1,12 @@
 package za.ac.cput;
 
+/**
+ * Na'eem Mahoney
+ * 218190751
+ * ADP372S
+ * Assignment 2
+ */
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
@@ -28,7 +35,7 @@ class ShoppingListTest {
         assertEquals(4, shoppingList.size());
     }
 
-    //Removing an object from the "BeforeEach" list - List size = 3 -1
+    //Removing an object from the "BeforeEach" list - List size = 3 - 1
     @Test
     void listRemoveTest(){
         shoppingList.remove(item2);

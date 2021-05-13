@@ -1,5 +1,12 @@
 package za.ac.cput;
 
+/**
+ * Na'eem Mahoney
+ * 218190751
+ * ADP372S
+ * Assignment 2
+ */
+
 public class EmployeeCollection {
     private int employeeNum;
     private String employeeFirstName, getEmployeeLastName;
