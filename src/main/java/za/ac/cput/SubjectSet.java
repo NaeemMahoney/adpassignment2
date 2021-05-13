@@ -1,12 +1,23 @@
 package za.ac.cput;
 
 public class SubjectSet {
+    private int subjectNum;
     private String subjectCode, subjectName, subjectYear;
 
-    public SubjectSet(String subjectCode, String subjectName, String subjectYear) {
+    public SubjectSet(int subjectNum, String subjectCode, String subjectName, String subjectYear) {
+        this.subjectNum = subjectNum;
         this.subjectCode = subjectCode;
         this.subjectName = subjectName;
         this.subjectYear = subjectYear;
+    }
+
+    //Getter and Setter for subjectNum
+    public int getSubjectNum() {
+        return subjectNum;
+    }
+
+    public void setSubjectNum(int subjectNum) {
+        this.subjectNum = subjectNum;
     }
 
     //Getter and Setter for subjectCode
